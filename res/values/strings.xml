@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Todos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add_task_label">Task</string>
+    <string name="add_user_priority_label">Priority</string>
+    <string name="add_user_duedate_label">Due Date</string>
+    <string name="add_task_hint">Task</string>
+    <string name="add_priority_hint">Priority</string>
+    <string name="add_due_date_hint">Due Date</string>
+    <string name="save_button_label">Save</string>
+    <string name="add_entry_button_label">+</string>
+    <string name="edit_save_button_label">Save</string>
+    <string name="item_column_name_label">Name</string>
+    <string name="item_column_priority_label">Priority</string>
+    <string name="item_column_duedate_label">DueDate</string>
+    <string name="item_column_separator_label"> </string>
+    <string name="item_icon_desc_label">"Entry Icon"</string>
+    <string name="background_image_desc">"Backgroung Wallpaper"</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+    
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ivTaskIcon"
+        android:layout_toRightOf="@+id/ivTaskIcon"
+        android:paddingLeft="10dp"
+        android:paddingRight="6dp"
+        android:text="@string/item_column_name_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView 
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvName"
+        android:layout_toRightOf="@+id/tvName"
+        android:paddingRight="6dp"
+        android:text="@string/item_column_separator_label" />
+
+    <TextView
+        android:id="@+id/tvPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/item_column_priority_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	<TextView 
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPriority"
+        android:layout_toRightOf="@+id/tvPriority"
+        android:paddingRight="6dp"
+        android:text="@string/item_column_separator_label" />
+
+    <TextView
+        android:id="@+id/tvDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <ImageView 
+        android:id="@+id/ivTaskIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_todo"
+        android:contentDescription="@string/item_icon_desc_label" />
+ 
+</RelativeLayout>
